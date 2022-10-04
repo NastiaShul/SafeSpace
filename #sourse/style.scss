@@ -635,6 +635,7 @@ margin: 0 0 65px 0;
 	&__body {
 	}
 }
+
 .body-plan {
 	@media (min-width:930px) {
 		max-width: 535px;
@@ -673,7 +674,10 @@ margin: 0 0 65px 0;
 				@media (min-width:930px) {
 					display: none;
 				}
-				max-width: 100px;
+				max-width: 150px;
+				@media (max-width:615px) {
+					max-width: 100px;
+				}
 				@media (max-width:470px) {
 					max-width: 70px;
 				}
@@ -816,6 +820,7 @@ margin: 0 0 65px 0;
 		background: transparent;
 		border: 1px solid #FFFFFF;
 		padding: 25px;
+		color: #ffffff;
 		@media (max-width: 930px) {
 			padding: 20px;
 		}

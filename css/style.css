@@ -888,11 +888,16 @@ body {
   }
 }
 .body-plan__tittle img {
-  max-width: 100px;
+  max-width: 150px;
 }
 @media (min-width: 930px) {
   .body-plan__tittle img {
     display: none;
+  }
+}
+@media (max-width: 615px) {
+  .body-plan__tittle img {
+    max-width: 100px;
   }
 }
 @media (max-width: 470px) {
@@ -1066,6 +1071,7 @@ body {
   background: transparent;
   border: 1px solid #FFFFFF;
   padding: 25px;
+  color: #ffffff;
 }
 @media (max-width: 930px) {
   .block-form input {
